@@ -1,3 +1,5 @@
+# Remember to use PowerShell 7 with a decently sized console!
+#
 # For more information on virtual terminal sequences see,
 # https://docs.microsoft.com/en-us/windows/console/console-virtual-terminal-sequences
 $runtime  = 500
@@ -111,5 +113,3 @@ for ($i = 0; $i -le $runtime; $i++) {
     }
   }
 }
-
-# ctf{Have You Ever Had A Dream, Neo, That You Were So Sure Was Real?}
